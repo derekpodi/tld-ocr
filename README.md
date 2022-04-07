@@ -9,7 +9,9 @@ Will need to Install [macOCR](https://github.com/schappim/macOCR).
 
 Install via Homebrew
 
-`brew install schappim/ocr/ocr`
+```
+brew install schappim/ocr/ocr
+```
 
 Install via Curl
 
@@ -20,4 +22,24 @@ sudo cp ocr /usr/local/bin;
 ```
 
 ## Setup
+
+Install and run within virtual environment:
+
+```
+python3 -m venv env
+source env/bin/activate
+python3 pip install -r requirements.txt
+```
+
+Note: First run of the model will take time to download CNN model.
+Can take few minutes to download and few GB for space needed.
+
+## USE
+
+Make sure you are in the project directory, then from command line run:
+
+```
+./ocr-shell.sh
+```
+
 
