@@ -1,5 +1,5 @@
 # tl;d(oc)r
-Screenshot long text ---> output a short summary.
+Screenshot long text ----> Output a short summary
 
 Utilize OCR on a screenshot to feed the captured text into a summarization CNN model.
 
@@ -7,7 +7,9 @@ Utilize OCR on a screenshot to feed the captured text into a summarization CNN m
 
 ## Requirements
 
-Will need to Install [macOCR](https://github.com/schappim/macOCR).
+Mac OS (xcode)
+
+Will need to Install [macOCR](https://github.com/schappim/macOCR) (Tesseract).
 
 Install via Homebrew
 
@@ -15,7 +17,7 @@ Install via Homebrew
 brew install schappim/ocr/ocr
 ```
 
-Install via Curl
+or Install via Curl
 
 ``` 
 curl -O https://files.littlebird.com.au/ocr-EPiReQzFJ5Xw9wElWMqbiBayYLVp.zip; 
@@ -44,4 +46,6 @@ Make sure you are in the project directory, then from command line run:
 ./ocr-shell.sh
 ```
 
+Upon change to screenshot cursor: click, hold, and then drag over text you wish to input. 
 
+Release the mouse to finalize capture of the screenshot.
