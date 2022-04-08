@@ -3,6 +3,8 @@ Screenshot long text ---> output a short summary.
 
 Utilize OCR on a screenshot to feed the captured text into a summarization CNN model.
 
+![tld-ocr](tld-ocr.gif)
+
 ## Requirements
 
 Will need to Install [macOCR](https://github.com/schappim/macOCR).
