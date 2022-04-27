@@ -1,7 +1,7 @@
 # tl;d(oc)r
-Screenshot long text ----> Output a short summary
+Take a Screenshot of long text ----> Output a short summary
 
-Utilize OCR on a screenshot to feed the captured text into a summarization CNN model.
+Utilize OCR on a screenshot to feed the captured text into a summarization convolutional neural network.
 
 ![tld-ocr](tld-ocr.gif)
 
